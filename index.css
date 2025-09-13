@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #d0e8f2 0%, #c7f0db 100%);
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+/* Animação fade-in para seções */
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Efeito hover para os cards interativos */
+.interactive-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(44, 62, 80, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1.5rem;
+}
+
+.interactive-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(44, 62, 80, 0.2);
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  color: #f0f9ff;
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.4);
+}
+
+/* Títulos das seções */
+h2, h3, h4 {
+  color: #1e40af;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Links e botões (se houver) */
+a, button {
+  background-color: #2563eb;
+  color: #f0f9ff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+a:hover, button:hover {
+  background-color: #1e40af;
+}
+
+/* Seções com fundo colorido para destaque */
+#funcoes article {
+  background: linear-gradient(135deg, #a7f3d0, #6ee7b7);
+  box-shadow: 0 4px 10px rgba(110, 231, 183, 0.3);
+  border-radius: 12px;
+  padding: 1.5rem;
+  color: #065f46;
+}
+
+/* Parágrafos justificados para melhor leitura */
+p, li {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Imagens com bordas arredondadas e sombra */
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(44, 62, 80, 0.1);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.imagens {
+
+width:500px;
+height:300px;
+
+
+}
+
+.imagens2 {
+
+width:400px;
+height:250px;
+
+}
+h1  {
+color:white;
+font-family:Georgia
+
+
+}
