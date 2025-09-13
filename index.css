@@ -4,6 +4,11 @@ body {
   color: #2c3e50;
   margin: 0;
   padding: 0;
+  background-image: url("../imagens/background.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: 200%;
 }
 
 /* Animação fade-in para seções */
