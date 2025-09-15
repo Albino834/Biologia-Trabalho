@@ -1,0 +1,80 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #e3fce9, #e0f7ff); /* Fundo com tons suaves */
+}
+
+/* Cabeçalho com tema natural */
+header {
+  background: linear-gradient(to right, #2e8b57, #3cb371); /* Verde esmeralda */
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: 5px solid #a7f3d0;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+header p {
+  font-size: 1.3rem;
+  color: #e0f7f1;
+}
+
+/* Menu de idiomas */
+.menu-idiomas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+/* Botões com tema botânico */
+.idioma-btn {
+  padding: 18px 36px;
+  font-size: 1.1rem;
+  border: 2px solid #2e8b57;
+  border-radius: 10px;
+  background: linear-gradient(to right, #a8e6cf, #dcedc1); /* Verde claro e limão suave */
+  color: #1b4332;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 128, 0, 0.15);
+}
+
+.idioma-btn:hover {
+  background: linear-gradient(to right, #d0f4de, #bee1c9);
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 128, 0, 0.2);
+}
+
+.idioma-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 6px rgba(0, 128, 0, 0.2);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .idioma-btn {
+    width: 100%;
+    max-width: 300px;
+    font-size: 1rem;
+  }
+
+  .menu-idiomas {
+    flex-direction: column;
+    align-items: center;
+  }
+}
